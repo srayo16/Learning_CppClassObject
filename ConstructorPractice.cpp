@@ -20,10 +20,15 @@ public:
         right = y;
         display();
     }
+    Glass()
+    {
+        cout << "Default" << endl;
+    }
 };
 
 int main()
 {
+    Glass object;
     Glass Srayo(4.25, 2.75), Mariam(3.75, 2.75);
 
     return 0;
